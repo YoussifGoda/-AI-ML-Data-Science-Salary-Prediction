@@ -1,0 +1,25 @@
+    <!doctype html>
+    <html>
+        <body>
+             <br>
+                 <h1 align='center'> AI, ML, Data Science Salary Prediction End-to-End Machine Learning Project</h1>
+                 <hr>
+                 <br>
+    
+                <fieldset align='center'>
+                    <form action ='/predict' method='post' enctype='multipart/form-data'>
+                    <br>
+                    <label class='control-label' align='center'> select CSV file containing sample data </label1>
+                    <br>
+                    <br>
+                    <br>
+                    <hr>
+                    <br>
+                     <input type='file' name='data_file' class='btn btn-block'/>
+                    <button type='submit' class='btn btn-primary btn-block btn-large'> Predict </button>
+                    </form>
+                    </fieldset>
+                    <br><br>
+                    <h3 align='center'> {{ prediction_text }} </h3>
+                </body>
+       </html>
